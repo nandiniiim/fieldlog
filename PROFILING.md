@@ -1,0 +1,52 @@
+# Profiling results
+
+Measured performance on Snapdragon hardware. **Leave a cell empty until it has been measured.** Do not estimate.
+
+## Test environment
+
+| Item | Value |
+|---|---|
+| Device | |
+| Snapdragon chip | |
+| RAM | |
+| OS build | |
+| Python / ONNX Runtime versions | |
+| AI Hub package versions | |
+| Date measured | |
+
+## Speech-to-text
+
+| Model | Runtime target | Latency | Real-time factor | Notes |
+|---|---|---|---|---|
+| Whisper (which size?) | NPU | | | |
+| Whisper (which size?) | CPU | | | |
+
+## Language model
+
+| Model | Runtime target | Time to first token | Tokens per second | Notes |
+|---|---|---|---|---|
+| (which model?) | NPU | | | |
+| (which model?) | CPU | | | |
+
+## End-to-end
+
+| Test | Result |
+|---|---|
+| Length of test audio | |
+| Time from end of recording to exported record | |
+| Battery use during test | |
+
+## Extraction quality
+
+Tested on scripted mock interviews (consenting volunteers or synthetic scripts).
+
+| Metric | Result |
+|---|---|
+| Number of test interviews | |
+| Transcription word error rate (hand-corrected sample) | |
+| Schema-valid on first attempt | |
+| Field-level accuracy vs manual coding | |
+
+## Observed failures
+
+Record what went wrong. Honest failures make the results more credible.

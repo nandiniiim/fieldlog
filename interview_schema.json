@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FieldLog interview record",
+  "type": "object",
+  "required": ["respondent", "key_issues", "notable_quotes", "follow_ups"],
+  "properties": {
+    "respondent": {
+      "type": "object",
+      "properties": {
+        "name_or_id": { "type": "string" },
+        "location": { "type": "string" },
+        "occupation": { "type": "string" }
+      }
+    },
+    "key_issues": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Main issues or themes the respondent raised."
+    },
+    "notable_quotes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Verbatim quotes copied from the transcript, not paraphrased."
+    },
+    "follow_ups": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Questions or actions the interviewer should follow up on."
+    }
+  }
+}

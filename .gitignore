@@ -1,0 +1,26 @@
+# Recordings and outputs (may contain personal data)
+*.wav
+*.mp3
+*.m4a
+*.flac
+outputs/
+recordings/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Model files (download via setup instructions)
+models/
+*.onnx
+*.bin
+*.gguf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
