@@ -1,6 +1,6 @@
 # Profiling results
 
-Measured performance on Snapdragon hardware. **Leave a cell empty until it has been measured.** Do not estimate.
+Not yet measured. Results will be added after testing on Snapdragon hardware.
 
 ## Test environment
 
