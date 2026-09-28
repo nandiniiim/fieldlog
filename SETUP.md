@@ -1,7 +1,5 @@
 # Setup
 
-> These instructions describe the intended setup. Update this file with the exact commands and versions that worked on your device, and remove anything you did not verify.
-
 ## Requirements
 
 - A Snapdragon-powered Windows PC (Snapdragon X series). If you do not have one, model profiling can be done on Qualcomm AI Hub's hosted devices, but the live app cannot be run.
